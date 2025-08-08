@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ford - Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="img/ford_logo.png" alt="Logotipo da Ford" class="logo">
+            <div class="menu-container">
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="lancamento.html">Lançamento</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="contato-conteudo">
+            <div class="imagem-container">
+                <img src="img/xls 2.2 diesel.jpg" alt="Caminhão Ford XL Cabine" class="imagem-contato">
+            </div>
+            
+            <div class="form-container">
+                <section class="contact-form-section">
+                    <h2>Sobre Você</h2>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone:</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Assunto:</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" disabled selected hidden>Selecione um assunto</option>
+                                <option value="praise">Elogio</option>
+                                <option value="complaint">Reclamação</option>
+                                <option value="request">Solicitação</option>
+                                <option value="dealer-info">Informações sobre concessionárias</option>
+                                <option value="test-drive">Agendar um test drive</option>
+                                <option value="finance">Financiamento</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="send-button">Enviar</button>
+                    </form>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content footer-flex-modified">
+            <div class="social-media">
+                <span class="social-media-text">Rede Sociais</span>
+                <a href="https://www.facebook.com/FordBrasil/"><img src="img/facebook-50.png" alt="Facebook"></a>
+                <a href="https://www.youtube.com/@FordBrasiloficial"><img src="img/youtube-squared-50.png" alt="YouTube"></a>
+                <a href="https://www.instagram.com/fordbrasil/"><img src="img/instagram-logo-50.png" alt="Instagram"></a>
+            </div>
+            <div class="footer-center-text">
+                <p>© 2025 Ford Motor Company todos os direitos reservados.</p>
+            </div>
+            <div class="footer-logo">
+                <img src="img/ford-96.png" alt="Logotipo Ford" class="footer-ford-logo">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
